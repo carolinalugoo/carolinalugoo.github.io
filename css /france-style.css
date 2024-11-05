@@ -1,32 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Spicy+Rice&display=swap');
+/* Basic reset and body styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Open Sans", "Avenir Next", "Arial", sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #222;
-  /* background-color: #ddd; */
-  background: url("../images/triangle-mosaic.webp");
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 20px;
 }
 
-a,
-a:link {
-  color: #7d4f3c;
+/* Header and Navigation */
+h1 {
+  color: #003366;
+  text-align: center;
 }
 
-a:visited {
-  color: #999;
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 20px 0;
 }
 
-a:hover {
-  color: rgba(118,81,63,0.5);
+nav ul li {
+  display: inline;
+  margin-right: 15px;
 }
 
-a:active {
-  color: rgb(119,49,189);
+nav ul li a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
 }
 
-h1,
-h2, 
+nav ul li a:hover {
+  color: #ff74e1;
+}
+
+/* Section Styling */
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  color: #ff74e1;
+}
+
 h3 {
-  font-family: "Spicy Rice", "Avenir Next", "Arial", sans-serif;
+  color: #333;
+}
+
+/* Table Styling */
+table, th, td {
+  border: 2px solid #ccc;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Figure Styling */
+figure {
+  text-align: center;
+  margin: 20px 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer ul li a {
+  color: #ff74e1;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
 }
