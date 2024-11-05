@@ -1,114 +1,41 @@
-/* Google Fonts */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-}
-
-/* Header Styling */
-header {
-    background-color: rgb(35, 39, 42);
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-header h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 2.5rem;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-nav ul li a {
-    color: hsl(50, 100%, 50%);
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: rgba(255, 215, 0, 0.8);
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr min(60ch, 100%) 1fr;
-    gap: 1rem;
-    padding: 1rem;
-}
-
-main > * {
-    grid-column: 2;
-}
-
-/* Section Styling */
-section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-}
-
-/* Footer Styling */
-footer {
-    background-color: rgb(35, 39, 42);
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-footer ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer ul li a {
-    color: #ffa500;
-    text-decoration: none;
-}
-
-footer ul li a:hover {
-    color: #ffd700;
-}
-
-/* Link States */
-a:link {
-    color: #0073e6;
-}
-a:visited {
-    color: #5b0e2d;
-}
-a:hover {
-    color: #ff4500;
-}
-a:active {
-    color: #ff6347;
-}
-
-/* Box Model */
-img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive Grid Layout */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-    main {
-        grid-template-columns: 1fr;
-    }
-}
+    color: #222;
+  }
+  
+  /* shared properties, so a combined selector is great here! */
+  table, 
+  th,
+  td {
+    border: 3px ridge #ccc;
+    border-collapse: collapse;
+  }
+  
+  /* paddding on the bottom moves the next table away */ 
+  table {
+    margin-bottom: 32px;
+  }
+  
+  /* a little padding gives the content a bit of breathing room */
+  th,
+  td {
+    padding: 4px 8px;
+  }
+  
+  /* instead of using classes to alternate rows... */
+  tr:nth-child(even) {
+    color: red;
+  }
+  
+  
+  /* old-school way of putting border on a table */
+  /* table {
+    border-top: 1px solid #222;
+    border-left: 1px solid #222;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+  } */
