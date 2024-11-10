@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  color: #222;
+  font-family: "Lora", "Playfair Display", sans-serif;;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:20px;
+}
+
+a,
+a:link {
+  color: #1c2a54;
+}
+
+a:visited {
+  color: rgb(139, 19, 19);
+}
+
+a:hover {
+  color: rgb(147, 177, 209);
+}
+
+a:active {
+  color: rgba(234, 72, 82, 0.9);
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", "Dancing Script", serif;;
+  font-weight: 700;
+}
+
+ul li {
+  list-style-type: "🥐";
+}
+
+#time-and-yield {
+  background-color: rgba(240, 240, 240, 0.44);
+}
+
+section {
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: rgba(231, 209, 75, 0.15); 
+  border: 1px solid #ddd;
+}
+
+/* id Selectors */
+#Introduction {
+  background-color: rgba(12, 59, 138, 0.15); /* light blue */
+  border: 1px dashed rgb(69, 105, 159); /* blue */
+}
+
+#Government {
+  background-color: rgba(12, 59, 138, 0.15); /* light red */
+  border: 1px dashed rgb(69, 105, 159); /* blue */
+  padding-left: 16px;
+}
+
+#Images {
+  background-color: rgba(12, 59, 138, 0.15); /* light red */
+  border: 1px dashed rgb(69, 105, 159); /* blue */
+  padding-left: 16px;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", "Dancing Script", serif;
+  font-weight: 700;
+}
+
+/* Additional Class Selectors */
+.first {
+  font-weight: bold;
+}
+
+.first::first-letter {
+  font-size: 22px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: rgb(69, 105, 159); /* blue */
+}
+
+/* Grid Layout */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Box Model and Padding Adjustments */
+footer a {
+  color: #000;
+}
+
+/* Ensure use of Relative Paths */
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
