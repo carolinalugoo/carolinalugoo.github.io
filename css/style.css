@@ -2,7 +2,7 @@
 
 body {
   color: #222;
-  font-family: "Lora", "Playfair Display", sans-serif;;
+  font-family: "Lora", "Playfair Display", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   max-width: 1200px;
@@ -27,12 +27,16 @@ a:active {
   color: rgba(234, 72, 82, 0.9);
 }
 
-h1,
-h2 {
-  font-family: "Playfair Display", "Dancing Script", serif;;
+h1 {
+  font-family: "Playfair Display", "Dancing Script", serif;
   font-weight: 700;
 }
 
+h2 {
+  font-family: "Playfair Display", "Dancing Script", serif;
+  font-weight: 700;
+  color: rgba(152, 7, 7, 0.9);
+}
 ul li {
   list-style-type: "🥐";
 }
@@ -49,18 +53,18 @@ section {
 }
 
 /* id Selectors */
-#Introduction {
+#introduction {
   background-color: rgba(12, 59, 138, 0.15); /* light blue */
   border: 1px dashed rgb(69, 105, 159); /* blue */
 }
 
-#Government {
+#government {
   background-color: rgba(12, 59, 138, 0.15); /* light red */
   border: 1px dashed rgb(69, 105, 159); /* blue */
   padding-left: 16px;
 }
 
-#Images {
+#images {
   background-color: rgba(12, 59, 138, 0.15); /* light red */
   border: 1px dashed rgb(69, 105, 159); /* blue */
   padding-left: 16px;
@@ -70,20 +74,6 @@ h1,
 h2 {
   font-family: "Playfair Display", "Dancing Script", serif;
   font-weight: 700;
-}
-
-/* Additional Class Selectors */
-.first {
-  font-weight: bold;
-}
-
-.first::first-letter {
-  font-size: 22px;
-}
-
-.highlight {
-  font-weight: bold;
-  color: rgb(69, 105, 159); /* blue */
 }
 
 /* Grid Layout */
@@ -100,8 +90,8 @@ footer a {
 
 /* Ensure use of Relative Paths */
 img {
-  width: 100%;
-  max-width: 100%;
+  width: 50%;
+  max-width: 50%;
 }
 
 /* Responsive Design */
