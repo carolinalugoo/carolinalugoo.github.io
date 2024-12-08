@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton+SC&family=Gruppo&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton+SC&display=swap');
 
 body {
   font-family: "Aboreto", "Anton SC", sans-serif;
@@ -52,6 +52,7 @@ header {
 
 nav {
   grid-area: nav;
+  padding: 70px;
 }
 
 main {
