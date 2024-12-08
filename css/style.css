@@ -25,7 +25,6 @@ h2 {
 nav {
   font-family: "Aboreto", sans-serif;
   font-size: 25px;
-  padding: 50px;
 }
 
 header,
@@ -85,5 +84,5 @@ a:hover {
 }
 
 a:active {
-  color: rgba(234, 72, 82, 0.9);
+  color: rgba(0, 74, 17, 0.9);
 }
